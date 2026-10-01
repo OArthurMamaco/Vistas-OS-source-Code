@@ -1,21 +1,37 @@
-MIT License
+Vistas OS
+Copyright (c) 2026 Arthur Carvalho Rodrigues Da Silva
 
-Copyright (c) 2026 OArthurMamaco
+LICENSING
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository contains components under different licenses.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Open Source Components
+Unless otherwise stated in a file or directory, the applicable source
+code is licensed under the MIT License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Vistas Proprietary Components
+The following components are proprietary and are NOT licensed under the
+MIT License:
+
+- Vistas Kernel core
+- Vistas Boot Chain
+- Vistas Core ABI
+- Vistas proprietary binary interfaces
+- Any component explicitly marked "VISTAS-PROPRIETARY"
+
+For these components, no permission is granted to copy, modify,
+redistribute, repackage, sublicense, or create derivative works except
+with the express written permission of the copyright holder.
+
+3. Third-Party Code
+Third-party source code remains under its original license. Such files
+must not be relicensed as Vistas OS code.
+
+4. Contributions
+Contributions to components explicitly marked as open source are licensed
+under the applicable open source license unless a separate written
+agreement states otherwise.
+
+5. Identification
+A file or directory marked "VISTAS-PROPRIETARY" is excluded from the
+open-source portion of this repository.
